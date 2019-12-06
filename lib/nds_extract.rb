@@ -37,8 +37,12 @@ end
 
 
 def total_gross(source)
- grand_total = 0 
- 
+ grand_total = 0
+ j = 0 
+ while j < source.length do 
+   list_of_directors[j][:name]
+   j += 1 
+ end 
  return grand_total 
 end
 
