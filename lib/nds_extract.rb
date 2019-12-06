@@ -39,10 +39,10 @@ end
 def total_gross(source)
  grand_total = 0
  new_list = list_of_directors(source)
+ almost_gross = directors_totals(source)
  j = 0 
  while j < new_list.length do 
-   almost_gross = directors_totals(source)
-   almost_gross[j][:name]
+   grand_total += almost_gross[new_list[j]]
    j += 1 
  end 
  return grand_total 
