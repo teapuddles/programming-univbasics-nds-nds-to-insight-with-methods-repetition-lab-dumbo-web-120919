@@ -41,7 +41,8 @@ def total_gross(source)
  new_list = list_of_directors(source)
  j = 0 
  while j < new_list.length do 
-   
+   almost_gross = directors_totals(source)
+   almost_gross[j][:name]
    j += 1 
  end 
  return grand_total 
